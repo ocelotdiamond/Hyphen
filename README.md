@@ -4,7 +4,7 @@ Hyphen is a fairly fast remote desktop application designed to pilot a virtual m
 
 ## Requirements
 
-Hyphen requires VirtualBox and Git Bash to be installed to run.
+Hyphen requires VirtualBox, NodeJS and Git Bash to be installed to run. It expects a Windows host machine, hosting a Linux VM with Firefox installed. Other configurations are untested and likely do not work.
 
 ## Installation
 
