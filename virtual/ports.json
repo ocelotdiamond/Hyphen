@@ -1,0 +1,5 @@
+{
+    "comment -> vmCommsPort": "Communication between the server on the host machine and server on the vm",
+    "vmCommsPort": 8002,
+    "vmAccessPort": "[your lan ip here]"
+}

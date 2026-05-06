@@ -1,0 +1,15 @@
+{
+  "name": "hyphen-virtual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "puppet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ocelotdiamond",
+  "license": "MIT",
+  "dependencies": {
+    "@jitsi/robotjs": "^0.6.17",
+    "puppeteer": "^24.17.1"
+  }
+}

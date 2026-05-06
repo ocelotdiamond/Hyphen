@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="app.js" defer></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>Hyphen</title>
+    </head>
+    <body>
+        <span>&nbsp;</span>
+        <div class="controls">
+            <span class="title">Hyphen</span>
+            <hr>
+            <input type="text" placeholder="Address" class="text address">
+            <input type="text" placeholder="Username" class="text username">
+            <input type="password" placeholder="Password" class="text password">
+            <!--<div class="toggles">
+                <div class="toggle-holder">
+                    <input type="checkbox" class="checkbox audio">
+                    <span class="checkbox"></span>
+                </div>
+                <div class="toggle-holder">
+                    <input type="checkbox" class="checkbox fullscreen">
+                    <span class="checkbox"></span>
+                </div>
+            </div>-->
+            <button onclick="setup()" class="connect">Connect</button>
+        </div>
+        <span class="status">&nbsp;</span>
+        <video autoplay muted></video>
+    </body>
+</html>
